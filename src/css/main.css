@@ -111,3 +111,22 @@ font-size: 16px;
     width: 295px;
  }
 }
+/* ABOUT THE GAME */
+.about-container{
+    padding-top: 56px;
+}
+.about-text-wrapper{
+    margin-top: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media only screen and (min-width: 1440px) {
+ .about-container{
+    padding: 100px 370px 75px;
+ }
+ .about-text-wrapper{
+    width: 690px;
+ }
+}
