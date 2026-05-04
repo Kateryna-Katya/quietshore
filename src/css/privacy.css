@@ -1,0 +1,83 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+
+.background {
+    text-align: left;
+color: #000;
+}
+.policy-container{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.privacy-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+width: 24px;
+height: 24px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+.background {
+font-size: 24px;
+    }
+    .privacy-title {
+font-size: 60px;
+    }
+.policy-link {
+    width: 41px;
+    height: 41px;
+}
+    .policy-container {
+        padding-top: 10px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+.policy-subtitle{
+    font-size: 30px;
+}
+}
