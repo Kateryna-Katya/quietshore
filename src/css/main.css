@@ -77,6 +77,7 @@ background-image: url("/img/home/hero-desk.png");
     padding: 160px 90px;
     flex-direction: row;
     justify-content: center;
+    gap: 60px;
  }
  .home-wrapper{
     margin-top: 0;
@@ -128,5 +129,58 @@ font-size: 16px;
  }
  .about-text-wrapper{
     width: 690px;
+ }
+}
+/* DESIGNED FOR RELAXATION */
+.designed-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.designed-subtitle{
+    text-align: left;
+    width: 307px;
+}
+.designed-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.designed-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+        padding: 24px 20px;
+        width: 345px;
+        height: 52px;
+background: linear-gradient(90deg, rgba(213, 232, 255, 0.3) 0%, rgba(255, 99, 126, 0.1) 100%);
+line-height: 2;
+    color: #45556c;
+}
+@media only screen and (min-width: 1440px) {
+ .designed-container{
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+ }
+ .designed-wrapper{
+    width: 730px;
+ }
+  .designed-wrapper h2{
+    text-align: left;
+  }
+ .designed-subtitle{
+    width: 730px;
+ }
+ .designed-item{
+    padding: 24px;
+        width: 608px;
+        height: 52px;
+ }
+ .designed-list{
+    margin-bottom: 20px;
  }
 }
